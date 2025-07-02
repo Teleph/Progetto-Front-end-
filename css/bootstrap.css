@@ -1,0 +1,224 @@
+.bg-body-custom {
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: linear-gradient(135deg, #fffaf0, #ffe0e9);
+}
+
+.section-title {
+  font-family: "Comic Sans MS" !important;
+  color: white !important;
+  font-size: 22px !important;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.section-title:hover {
+  color: black !important;
+  transform: scale(1.05);
+}
+
+.logo {
+  width: 150px;
+}
+
+.img-carousel {
+  width: 270px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.custom-text {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  color: black !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.carousel-dots button {
+  width: 15px;
+  height: 15px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  margin: 0 6px;
+  border: 2px solid white;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.carousel-dots .active {
+  background-color: #ff5722;
+  transform: scale(1.2);
+}
+
+.carousel {
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-carousel {
+  font-family: "Comic Sans MS";
+}
+
+.container-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.subtitle {
+  font-family: "Comic Sans MS";
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+
+.container-card {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 230px;
+  height: 350px;
+  background-color: white;
+  border-radius: 7%;
+  color: white;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  border-radius: 11%;
+  margin-top: 20px;
+}
+
+.btn-buy {
+  background: rgb(255, 215, 0);
+  color: black;
+  border-radius: 8px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Comic Sans MS";
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn-buy:hover {
+  background-color: orange;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+}
+
+.obj-title {
+  font-family: "Comic Sans MS";
+  font-weight: 600;
+  color: black;
+}
+
+.title-buy {
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+  font-size: 28px;
+  color: #ff5722;
+}
+
+.hr-custom {
+  width: 75%;
+  justify-self: center;
+}
+
+.custom-card-text {
+  font-family: "Comic Sans MS";
+  color: #ff5722;
+}
+
+.card-title {
+  font-family: "Comic Sans MS";
+  color: #ff5722 !important;
+}
+
+.card-text {
+  font-family: "Comic Sans MS";
+}
+
+.form-label {
+  font-family: "Comic Sans MS";
+}
+
+.custom-form {
+  max-width: 600px;
+  background-color: #fff3e0;
+  border: 2px solid #ffcc80;
+  font-family: "Fredoka", sans-serif;
+}
+
+.custom-form .form-label {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.custom-form .form-control {
+  border-radius: 12px;
+  border: 1px solid #ffc107;
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.4);
+  border-color: #ff9800;
+}
+
+.custom-form button {
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.footer-custom {
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f2f3;
+  height: 100px;
+}
+
+.footer-text {
+  font-family: "Comic Sans MS";
+}

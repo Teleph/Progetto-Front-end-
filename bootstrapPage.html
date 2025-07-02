@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PlayLab</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-custom p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo_toys.png" class="logo" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4">
+            <li class="nav-item">
+              <a class="nav-link section-title fw-bold" href="#cards">Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link section-title fw-bold" href="#chi_siamo"
+                >Chi siamo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link section-title fw-bold" href="#contatti"
+                >Contatti</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel w-50 slide mt-5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/giocattolo1.png"
+            class="d-block img-carousel"
+            alt="..."
+          />
+          <div class="custom-text mt-5 text-center">
+            <h5 class="title-carousel">Giocattolo Sonaglio</h5>
+            <p><strong>Categoria:</strong> Bambino, baby sonaglio.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/giocattolo2.png"
+            class="d-block img-carousel"
+            alt="..."
+          />
+          <div class="mt-5 text-center custom-text">
+            <h5 class="title-carousel">Orso Blocco giocattolo</h5>
+            <p>
+              <strong>Categoria:</strong> Giochi puzzle, giocattolo educativo.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/giocattolo3.png"
+            class="d-block img-carousel"
+            alt="..."
+          />
+          <div class="mt-5 text-center custom-text">
+            <h5 class="title-carousel">Giocattolo blocchi.</h5>
+            <p><strong>Categoria:</strong> Giocattoli educativi Veicolo</p>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="carousel-dots mt-3 d-flex justify-content-center">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="0"
+        class="active"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <hr class="hr-custom" />
+    <section id="cards">
+      <h2 class="title-buy text-center mt-5 mb-5">
+        Acquista qui! Scopri le offerte!
+      </h2>
+      <div class="container-box mb-5">
+        <div class="container-card">
+          <div class="card p-3">
+            <img class="img" src="img/toys_buy1.png" alt="" />
+            <p class="obj-title">Giocattolo in legno</p>
+            <p class="price">€24,99</p>
+            <button class="btn-buy">Aggiungi al carrello</button>
+          </div>
+          <div class="card p-3">
+            <img class="img" src="img/toys_buy2.png" alt="" />
+            <p class="obj-title">Pirata giocattolo</p>
+            <p class="price">€17,99</p>
+            <button class="btn-buy">Aggiungi al carrello</button>
+          </div>
+          <div class="card p-3">
+            <img class="img" src="img/toys_buy3.png" alt="" />
+            <p class="obj-title">Cubo per bambini</p>
+            <p class="price">€34,99</p>
+            <button class="btn-buy">Aggiungi al carrello</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr-custom" />
+    <section class="container my-5" id="chi_siamo">
+      <h2 class="text-center fw-bold custom-card-text mb-5 mt-5">Chi siamo</h2>
+      <div class="row justify-content-center mt-5 g-4">
+        <div class="col-md-4">
+          <div class="card m-auto shadow-md">
+            <img
+              src="img/maria_rossi.jpg"
+              class="card-img-top"
+              alt="Team Member 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Maria Rossi</h5>
+              <p class="card-text">
+                Fondatrice e appassionata di giocattoli educativi, crede nel
+                gioco come strumento di crescita.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card m-auto shadow-md">
+            <img
+              src="img/giulia.jpg"
+              class="card-img-top"
+              alt="Team Member 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Luca Bianchi</h5>
+              <p class="card-text">
+                Esperto in design di giocattoli sicuri e innovativi, sempre alla
+                ricerca di novità.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card m-auto shadow-md">
+            <img
+              src="img/luca_bianchi.jpg"
+              class="card-img-top"
+              alt="Team Member 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Giulia Verdi</h5>
+              <p class="card-text">
+                Customer care e assistenza, sempre pronta a rispondere con
+                gentilezza e competenza.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr-custom" />
+    <section id="contatti">
+      <h2 class="text-center fw-bold custom-card-text mb-5 mt-5">Contatti</h2>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <p class="card-text">
+              <strong>Indirizzo email:</strong> test@gmail.com
+            </p>
+            <p class="card-text"><strong>Telefono:</strong> +39 1234567890</p>
+            <p class="card-text"><strong>Luogo:</strong> NY(US)</p>
+          </div>
+        </div>
+      </div>
+      <section class="container my-5">
+        <form action="#" class="custom-form mx-auto p-4 rounded shadow">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Inserisci il nome..."
+            />
+          </div>
+          <div class="mb-3">
+            <label for="cognome" class="form-label">Cognome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cognome"
+              placeholder="Inserisci il cognome..."
+            />
+          </div>
+          <div class="mb-3">
+            <label for="messaggio" class="form-label">Messaggio</label>
+            <textarea
+              class="form-control"
+              id="messaggio"
+              rows="3"
+              placeholder="Scrivi qui il tuo messaggio..."
+            ></textarea>
+          </div>
+          <div class="d-flex justify-content-between">
+            <button
+              type="submit"
+              class="btn btn-warning px-4 shadow-sm"
+            >
+              Invia
+            </button>
+            <button type="reset" class="btn btn-outline-danger px-4 shadow-sm">
+              Reset
+            </button>
+          </div>
+        </form>
+      </section>
+    </section>
+    <footer>
+      <div class="footer-custom">
+        <p class="footer-text">&copy; 2025 ToyLand. All rights reserved.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const carousel = document.getElementById("carouselExampleCaptions");
+      const dots = document.querySelectorAll(".carousel-dots button");
+
+      carousel.addEventListener("slide.bs.carousel", function (e) {
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[e.to].classList.add("active");
+      });
+    </script>
+  </body>
+</html>
