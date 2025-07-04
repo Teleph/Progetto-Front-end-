@@ -30,7 +30,11 @@ function createCard() {
       <img class="img" src="${product.img}" alt="" />
       <p class="obj-title">${product.title}</p>
       <p class="price">${product.price}</p>
-      <button class="btn-buy">Aggiungi al carrello</button>
+      <div class="d-flex align-items-center gap-1">
+      <i class="fa-solid fa-cart-plus"></i>
+       <button class="btn-buy">Acquista il prodotto</button>
+       <i class="fa-solid fa-star"></i>
+      </div>
     `;
     container.appendChild(card);
   });

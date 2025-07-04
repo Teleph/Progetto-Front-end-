@@ -133,8 +133,7 @@ body {
   cursor: pointer;
   font-family: "Comic Sans MS";
   border: none;
-  width: 80%;
-  margin: 0 auto;
+  white-space: nowrap;
 }
 
 .btn-buy:hover {
@@ -221,4 +220,8 @@ body {
 
 .footer-text {
   font-family: "Comic Sans MS";
+}
+
+.fa-solid {
+  cursor: pointer;
 }
