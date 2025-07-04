@@ -24,9 +24,9 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-custom p-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="img/logo_toys.png" class="logo" alt=""
-        /></a>
+        <a class="navbar-brand" href="#">
+          <img src="img/logo_toys.png" class="logo" alt="Logo Toys" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,87 +38,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div
           class="collapse navbar-collapse justify-content-center"
           id="navbarNav"
         >
-          <ul class="navbar-nav gap-4">
-            <li class="nav-item">
-              <a class="nav-link section-title fw-bold" href="#cards">Cards</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link section-title fw-bold" href="#chi_siamo"
-                >Chi siamo</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link section-title fw-bold" href="#contatti"
-                >Contatti</a
-              >
-            </li>
-          </ul>
+          <ul class="navbar-nav gap-4" id="navbar-links"></ul>
         </div>
       </div>
     </nav>
-    <div id="carouselExampleCaptions" class="carousel w-50 slide mt-5">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="img/giocattolo1.png"
-            class="d-block img-carousel"
-            alt="..."
-          />
-          <div class="custom-text mt-5 text-center">
-            <h5 class="title-carousel">Giocattolo Sonaglio</h5>
-            <p><strong>Categoria:</strong> Bambino, baby sonaglio.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="img/giocattolo2.png"
-            class="d-block img-carousel"
-            alt="..."
-          />
-          <div class="mt-5 text-center custom-text">
-            <h5 class="title-carousel">Orso Blocco giocattolo</h5>
-            <p>
-              <strong>Categoria:</strong> Giochi puzzle, giocattolo educativo.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="img/giocattolo3.png"
-            class="d-block img-carousel"
-            alt="..."
-          />
-          <div class="mt-5 text-center custom-text">
-            <h5 class="title-carousel">Giocattolo blocchi.</h5>
-            <p><strong>Categoria:</strong> Giocattoli educativi Veicolo</p>
-          </div>
-        </div>
-      </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
+    <div id="carouselExampleCaptions" class="carousel w-50 slide mt-5"></div>
     <div class="carousel-dots mt-3 d-flex justify-content-center">
       <button
         type="button"
@@ -146,83 +75,16 @@
         Acquista qui! Scopri le offerte!
       </h2>
       <div class="container-box mb-5">
-        <div class="container-card">
-          <div class="card p-3">
-            <img class="img" src="img/toys_buy1.png" alt="" />
-            <p class="obj-title">Giocattolo in legno</p>
-            <p class="price">€24,99</p>
-            <button class="btn-buy">Aggiungi al carrello</button>
-          </div>
-          <div class="card p-3">
-            <img class="img" src="img/toys_buy2.png" alt="" />
-            <p class="obj-title">Pirata giocattolo</p>
-            <p class="price">€17,99</p>
-            <button class="btn-buy">Aggiungi al carrello</button>
-          </div>
-          <div class="card p-3">
-            <img class="img" src="img/toys_buy3.png" alt="" />
-            <p class="obj-title">Cubo per bambini</p>
-            <p class="price">€34,99</p>
-            <button class="btn-buy">Aggiungi al carrello</button>
-          </div>
-        </div>
+        <div class="container-card"></div>
       </div>
     </section>
     <hr class="hr-custom" />
     <section class="container my-5" id="chi_siamo">
       <h2 class="text-center fw-bold custom-card-text mb-5 mt-5">Chi siamo</h2>
-      <div class="row justify-content-center mt-5 g-4">
-        <div class="col-md-4">
-          <div class="card m-auto shadow-md">
-            <img
-              src="img/maria_rossi.jpg"
-              class="card-img-top"
-              alt="Team Member 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Maria Rossi</h5>
-              <p class="card-text">
-                Fondatrice e appassionata di giocattoli educativi, crede nel
-                gioco come strumento di crescita.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card m-auto shadow-md">
-            <img
-              src="img/giulia.jpg"
-              class="card-img-top"
-              alt="Team Member 2"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Luca Bianchi</h5>
-              <p class="card-text">
-                Esperto in design di giocattoli sicuri e innovativi, sempre alla
-                ricerca di novità.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card m-auto shadow-md">
-            <img
-              src="img/luca_bianchi.jpg"
-              class="card-img-top"
-              alt="Team Member 3"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Giulia Verdi</h5>
-              <p class="card-text">
-                Customer care e assistenza, sempre pronta a rispondere con
-                gentilezza e competenza.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div
+        class="row justify-content-center mt-5 g-4"
+        id="cards-contacts"
+      ></div>
     </section>
     <hr class="hr-custom" />
     <section id="contatti">
@@ -268,10 +130,7 @@
             ></textarea>
           </div>
           <div class="d-flex justify-content-between">
-            <button
-              type="submit"
-              class="btn btn-warning px-4 shadow-sm"
-            >
+            <button type="submit" class="btn btn-warning px-4 shadow-sm">
               Invia
             </button>
             <button type="reset" class="btn btn-outline-danger px-4 shadow-sm">
@@ -304,5 +163,9 @@
         dots[e.to].classList.add("active");
       });
     </script>
+    <script src="cards.js"></script>
+    <script src="navbar.js"></script>
+    <script src="cards_contacts.js"></script>
+    <script src="carousel.js"></script>
   </body>
 </html>
