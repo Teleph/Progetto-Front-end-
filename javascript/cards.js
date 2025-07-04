@@ -1,15 +1,18 @@
 const productCards = [
   {
+    id: 1,
     img: "img/toys_buy1.png",
     title: "Giocattolo in legno",
     price: "€24,99",
   },
   {
+    id: 2,
     img: "img/toys_buy2.png",
     title: "Pirata giocattolo",
     price: "€17,99",
   },
   {
+    id: 2,
     img: "img/toys_buy3.png",
     title: "Cubo per bambini",
     price: "€34,99",
