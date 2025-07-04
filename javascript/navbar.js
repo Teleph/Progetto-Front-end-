@@ -2,6 +2,8 @@ const navbarArray = [
   { title: "Cards", href: "#cards" },
   { title: "Chi siamo", href: "#chi_siamo" },
   { title: "Contatti", href: "#contatti" },
+  { title: "Carrello", href: "./cart.html" },
+  { title: "Preferiti", href: "./favourites.html" }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
